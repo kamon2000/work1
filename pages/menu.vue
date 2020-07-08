@@ -32,7 +32,7 @@
             </nuxt-link>
           </div>
           <div class="my-2">
-            <nuxt-link to="/">
+            <nuxt-link to="ex01">
               <v-btn x-large color="success" dark>
                 กลับหน้าหลัก
               </v-btn>
