@@ -3,7 +3,7 @@
     <h1 v-t="' สมุดบันทึกกิจกรรม'" />
     <nuxt-link to="/menu">
       <v-btn small color="success" dark>
-        กิจกรรมเข้าเเถว
+        กิจกรรม
       </v-btn>
     </nuxt-link>
   </div>
