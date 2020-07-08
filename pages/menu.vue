@@ -25,48 +25,24 @@
             </nuxt-link>
           </div>
           <div class="my-2">
-            <nuxt-link to="/act_/profession">
+            <nuxt-link to="/act_/flag">
               <v-btn color="error" dark large>
-                กิจกรรมวิชาชีพ
+                กิจกรรมหน้าเสาธง
               </v-btn>
             </nuxt-link>
           </div>
-          <nuxt-link to="/">
-            <v-btn color="success" dark large>
-              กลับสู่หน้าหลัก
-            </v-btn>
-          </nuxt-link>
-        </div>
+          <div class="my-2">
+            <nuxt-link to="/">
+              <v-btn x-large color="success" dark>
+                กลับหน้าหลัก
+              </v-btn>
+            </nuxt-link>
+          </div>
         </div>
       </v-col>
-      <v-col cols="12" sm="6">
-        <div class="text-center">
-          <div class="my-2">
-            <v-btn color="secondary" fab x-small dark>
-              <v-icon>mdi-television</v-icon>
-            </v-btn>
-          </div>
-          <div class="my-2">
-            <v-btn color="primary" fab small dark>
-              <v-icon>mdi-pencil</v-icon>
-            </v-btn>
-          </div>
-          <div class="my-2">
-            <v-btn color="warning" fab dark>
-              <v-icon>mdi-account-circle</v-icon>
-            </v-btn>
-          </div>
-          <div class="my-2">
-            <v-btn color="error" fab large dark>
-              <v-icon>mdi-alarm</v-icon>
-            </v-btn>
-          </div>
-          <div class="my-2">
-            <v-btn color="success" fab x-large dark>
-              <v-icon>mdi-domain</v-icon>
-            </v-btn>
-          </div>
-        </div>
+
+      </div>
+      </div>
       </v-col>
     </v-row>
   </v-container>
